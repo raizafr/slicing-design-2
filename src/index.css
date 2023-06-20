@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    @apply bg-[#C1E5FF] text-black
+}
+.non-active{
+    @apply bg-transparent text-white
+}
+
+body{
+    @apply font-custom
+}
