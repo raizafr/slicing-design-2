@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
-import Arcade from "../assets/images/icon-arcade.svg";
-import Advanced from "../assets/images/icon-advanced.svg";
-import Pro from "../assets/images/icon-pro.svg";
+import Arcade from "../../public/assets/images/icon-arcade.svg";
+import Advanced from "../../public/assets/images/icon-advanced.svg";
+import Pro from "../../public/assets/images/icon-pro.svg";
 import { useContext, useEffect, useState } from "react";
 import Card from "../components/Card";
 import { PlanContext } from "../context/PlanContext";

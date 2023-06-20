@@ -6,6 +6,7 @@ const Input = (props) => {
           {props.label}
         </label>
         <input
+          id={props.id}
           type={props.type}
           placeholder={props.placeholder}
           className="px-4 py-2 border focus:outline-none focus:border-blue-400 rounded-lg focus:placeholder-blue-400"

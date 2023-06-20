@@ -1,5 +1,5 @@
 import { ReactSVG } from "react-svg";
-import iconTanks from "../assets/images/icon-thank-you.svg";
+import iconTanks from "../../public/assets/images/icon-thank-you.svg";
 const Finish = () => {
   return (
     <section className="w-full flex justify-center item-center">
