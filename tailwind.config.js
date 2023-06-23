@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "side-desktop": 'url("./public/assets/images/bg-sidebar-desktop.svg")',
-        "side-mobile": 'url("./public/assets/images/bg-sidebar-mobile.svg")',
+        "side-desktop": 'url("../public/assets/images/bg-sidebar-desktop.svg")',
+        "side-mobile": 'url("../public/assets/images/bg-sidebar-mobile.svg")',
       },
       fontFamily: {
         custom: ["Ubuntu", "sans-serif"],
